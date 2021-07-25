@@ -4,6 +4,7 @@ body {
     color: #293B5F;
     font-family: 'Forum', cursive;
 }
+/* NAV */
 .navbar {
     position: absolute;
 
@@ -49,6 +50,8 @@ body {
     background: transparent;
 }
 
+/* Carocel */
+
 #carocel_container {
     width: 100%;
     height: 100vh;
@@ -70,3 +73,70 @@ font-weight: bold;
     margin-top: 40px;
     background-color: #DBE6FD;
     color: #293B5F;
+}
+
+.fund_btn {
+    z-index: 1;
+    position: absolute;
+        /* top: 0; */
+        bottom: 0;
+        background-color: #DBE6FD;
+        padding: 2% 2%;
+        border-radius: 4% 4% 0% 0%;
+        line-height: 60px;
+        text-align: center;
+        right: 5%;}
+
+        .fund_btn:hover {
+            background-color: #293B5F;
+            color: #FFE194;
+            transition: 500ms linear; 
+            /* transition: 0.9s; */
+        }
+
+.hel {      text-align: center;
+padding: 2%;
+}
+
+#heliping {
+    padding: 2% 0px; 
+}
+.helping_p {text-align: center;
+    font-size: 4em;
+    padding-bottom: 2%;
+    font-weight: lighter;}
+
+.helping_rightSide  {
+    padding: 2% 0% 0% 10%;
+    position: relative;
+    height: 100%;
+}
+
+.helping_rightSide button {
+    bottom: 0px;
+    
+    position: absolute;
+}
+
+.helping_content {
+    padding: 2% 0px 2% 0px;
+}
+
+
+#cause {
+   
+    padding: 3% 0px;
+}
+
+.cause_container {
+    background-color: #B8DFD8;
+    padding: 3% 0px;
+}
+.hel0 {
+    text-align: center;
+    color: #293B5F;
+ 
+}
+.box_center {
+    justify-content: space-evenly;
+}
